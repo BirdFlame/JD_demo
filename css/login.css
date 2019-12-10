@@ -1,0 +1,253 @@
+.wrap {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 100px;;
+    background-color: #fff;
+    box-shadow: -5px 0px 8px #b2b2b2;
+}
+
+.hd_left {
+    float: left;
+    height: 100px;
+}
+
+.hd_right {
+    margin-top: 60px;
+    float: right;
+    height: 100px;
+    font-size: 16px;
+}
+
+.logo {
+    display: block;
+    float: left;
+    width: 160px;
+    height: 50px;
+    margin-top: 25px;
+    background: url("../img/reg_icon.png") no-repeat 0 0;
+}
+.reg_title {
+    float: left;
+    margin-top: 35px;
+    font-size: 24px;
+    text-align: center;
+    color: #333333;
+}
+.content {
+    height: 475px;
+    background-color: #e93854;
+}
+.focus {
+    position: relative;
+    width: 990px;
+    height: 475px;
+    background-image: url("../img/login_bg.png");
+}
+.form_login {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    width: 350px;
+    height: 400px;
+    background-color: #ffffff;
+}
+.login_hd_l {
+    float: left;
+    width: 174px;
+    height: 50px;
+    border-bottom: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4;
+}
+.login_hd_r {
+    float: left;
+    width: 175px;
+    height: 50px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.login_hd_l>a,.login_hd_r>a {
+    display: block;
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    line-height: 50px;
+}
+.login_bd {
+    position: relative;
+    top: 70px;
+    width: 350px;
+    height: 280px;
+    background-color: #ffffff;
+}
+.account {
+    position:relative;
+}
+.login_user {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #bdbdbd;
+    cursor: text;
+}
+.login_pwd {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #bdbdbd;
+    cursor:text;
+}
+.forget_pwd {
+    position: absolute;
+    top: 150px;
+    right: 30px;
+    color: #666666;
+}
+.logn_btn {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    width: 300px;
+    height: 40px;
+    background-color: #e4393c;
+}
+.logn_btn>a{
+    display: block;
+    color:#ffffff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+.login_user_img {
+    display: block;
+    width: 40px;
+    height: 39px;
+    background: url("../img/login_icon.png") no-repeat 0 0;
+    border-right: 1px solid #bdbdbd;
+}
+.login_pwd_img {
+    display: block;
+    width: 40px;
+    height: 39px;
+    background: url("../img/login_icon.png") no-repeat -48px 0;
+    border-right: 1px solid #bdbdbd;
+}
+.login_name {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    width: 240px;
+    height: 30px;
+    line-height: 30px;
+}
+.login_password {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    width: 240px;
+    height: 30px;
+    line-height: 30px;
+}
+.login_footer {
+    position: relative;
+    top: 60px;
+    width: 350px;
+    height: 60px;
+    background-color: #fcfcfc;
+    border-top: 1px solid #f4f4f4;
+}
+.login_qq_img {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 20px;
+    height: 20px;
+    background: url("../img/QQ-weixin.png") no-repeat 0 0;
+    cursor: pointer;
+}
+.login_qq_text {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    cursor: pointer;
+    color: #666666;
+}
+.login_qq_text:hover {
+    color: #e4393c;
+    text-decoration: underline;
+}
+.login_bar {
+    position: absolute;
+    top: 20px;
+    left: 88px;
+    width: 2px;
+    height: 20px;
+    background-color: #cfdaeb;
+}
+.login_wx_img {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    width: 20px;
+    height: 20px;
+    background: url("../img/QQ-weixin.png") no-repeat -20px 0;
+    cursor: pointer;
+}
+.login_wx_text {
+    position: absolute;
+    top: 20px;
+    left: 130px;
+    cursor: pointer;
+    color: #666666;
+}
+.login_wx_text:hover {
+    color: #e4393c;
+    text-decoration: underline;
+}
+.login_reg {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 14px;
+}
+.login_code {
+    display: none;
+    margin: 0 auto;
+    width: 300px;
+    height: 260px;
+    background: url("../img/login_code.png") no-repeat;
+    cursor: pointer;
+}
+.login_hd .login_hd_title {
+    font-weight: 700;
+    color: #e4393c;
+}
+.footer {
+    width: 100%;
+}
+.footer_warp {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    border-top: 1px solid #e6e6e6;
+}
+.footer_link {
+    margin: 30px auto;
+    width: 900px;
+    height: 20px;
+}
+.footer_link>ul>li {
+    float: left;
+    margin-left: 15px;
+}
+.copyright {
+    margin-left:400px;
+}

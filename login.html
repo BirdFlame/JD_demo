@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>京东登录页面</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="jq/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $('.login_hd_l').click(function () {
+                $('.login_hd_r').find('a').removeClass('login_hd_title');
+                $(this).find('a').addClass('login_hd_title');
+                $('.account').hide();
+                $('.login_code').show();
+            });
+            $('.login_hd_r').click(function () {
+                $('.login_hd_l').find('a').removeClass('login_hd_title');
+                $(this).find('a').addClass('login_hd_title');
+                $('.login_code').hide();
+                $('.account').show();
+            });
+        });
+
+    </script>
+</head>
+<body>
+<div class="header">
+    <div class="wrap">
+        <div class="hd_left">
+            <a href="#">
+                <span class="logo"></span>
+                <span class="reg_title">欢迎登录</span>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="wrap">
+        <div class="focus">
+            <div class="form_login">
+                <div class="login_hd">
+                    <div class="login_hd_l">
+                        <a href="javascript:;">扫码登录</a>
+                    </div>
+                    <div class="login_hd_r">
+                        <a href="javascript:;" class="login_hd_title">账户登录</a>
+                    </div>
+                </div>
+                <div class="login_bd">
+                   <div class="account">
+                       <form>
+                       <div class="login_user">
+                            <span class="login_user_img"></span>
+                            <input type="text" class="login_name" placeholder="邮箱/用户名/登陆手机">
+                       </div>
+                       <div class="login_pwd">
+                           <span class="login_pwd_img"></span>
+                           <input type="password" class="login_password">
+                       </div>
+                       </form>
+                       <div class="forget_pwd">
+                           <a href="#">忘记密码</a>
+                       </div>
+                       <div class="logn_btn"><a href="#">登 录</a></div>
+                   </div>
+                    <div class="login_code">
+
+                    </div>
+                </div>
+                <div class="login_footer">
+                    <div class="login_qq">
+                        <span class="login_qq_img"></span>
+                        <span class="login_qq_text">QQ</span>
+                    </div>
+                    <div class="login_bar"></div>
+                    <div class="login_wx">
+                        <span class="login_wx_img"></span>
+                        <span class="login_wx_text">微信</span>
+                    </div>
+                    <div class="login_reg"><a href="registered.html">立即注册</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer_warp">
+        <div class="footer_link">
+            <ul>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="#">人才招聘</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="#">商家入驻</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="#">广告服务</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="#">手机京东</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="#">友情链接</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="#">销售联盟</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="#">京东社区</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="#">京东公益</a></li>
+                <li><a href="#">|</a></li>
+                <li><a href="#">English Site</a></li>
+            </ul>
+        </div>
+        <div class="copyright">Copyright©2004-2019  京东JD.com 版权所有</div>
+    </div>
+</div>
+
+</body>
+</html>
